@@ -6,25 +6,9 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            int i = 4;
-            int j = 4;
-
-            if (i < j)
-            {
-                Console.WriteLine("i is less than j");
-            }
-
-            else if (i > j)
-            {
-                Console.WriteLine("i is greater than j");
-            }
-            else 
-            {
-                Console.WriteLine("i is equal to j");
-            }
-
-
-
+            Console.WriteLine("Enter your age:");
+            string age = Console.ReadLine();
+            Console.WriteLine("Your age is "+ age);
         }
     }
 }
