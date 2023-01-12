@@ -6,7 +6,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            int i = 10;
+            int i = 4;
             int j = 4;
 
             if (i < j)
@@ -14,9 +14,13 @@ namespace HelloWorld
                 Console.WriteLine("i is less than j");
             }
 
-            if (i > j)
+            else if (i > j)
             {
                 Console.WriteLine("i is greater than j");
+            }
+            else 
+            {
+                Console.WriteLine("i is equal to j");
             }
 
 
