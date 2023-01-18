@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,11 @@ namespace pcman_game
         public Form1()
         {
             InitializeComponent();
+        }
+        private void playSimpleSound()
+        {
+            SoundPlayer simpleSound = new SoundPlayer(@"c:\Windows\Media\chimes.wav");
+            simpleSound.Play();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -30,13 +36,13 @@ namespace pcman_game
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-
+            playSimpleSound();
 
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-
+            playSimpleSound();
         }
         private void resetGame()
         {
@@ -115,6 +121,7 @@ namespace pcman_game
 
         private void button1_Click(object sender, EventArgs e)
         {
+            playSimpleSound();
             this.KeyPreview = true;
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             button1.Visible = false;
