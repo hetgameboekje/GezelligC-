@@ -1,0 +1,11 @@
+C:\Users\Timo\source\repos\pcman game\pcman game\bin\Debug\pcman game.exe.config
+C:\Users\Timo\source\repos\pcman game\pcman game\bin\Debug\pcman game.exe
+C:\Users\Timo\source\repos\pcman game\pcman game\bin\Debug\pcman game.pdb
+C:\Users\Timo\source\repos\pcman game\pcman game\obj\Debug\pcman game.csproj.AssemblyReference.cache
+C:\Users\Timo\source\repos\pcman game\pcman game\obj\Debug\pcman game.csproj.SuggestedBindingRedirects.cache
+C:\Users\Timo\source\repos\pcman game\pcman game\obj\Debug\pcman_game.Form1.resources
+C:\Users\Timo\source\repos\pcman game\pcman game\obj\Debug\pcman_game.Properties.Resources.resources
+C:\Users\Timo\source\repos\pcman game\pcman game\obj\Debug\pcman game.csproj.GenerateResource.cache
+C:\Users\Timo\source\repos\pcman game\pcman game\obj\Debug\pcman game.csproj.CoreCompileInputs.cache
+C:\Users\Timo\source\repos\pcman game\pcman game\obj\Debug\pcman game.exe
+C:\Users\Timo\source\repos\pcman game\pcman game\obj\Debug\pcman game.pdb
